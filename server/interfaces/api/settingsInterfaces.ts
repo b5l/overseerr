@@ -37,6 +37,8 @@ export interface PublicSettingsResponse {
   locale: string;
   emailEnabled: boolean;
   newPlexLogin: boolean;
+  plexLoginEnabled: boolean;
+  enableForwardAuth: boolean;
 }
 
 export interface CacheItem {
